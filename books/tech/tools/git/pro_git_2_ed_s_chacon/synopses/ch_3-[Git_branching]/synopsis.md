@@ -301,6 +301,7 @@ You can resolve merge conflict during rebasing:
   $ git checkout experiment 
   $ git rebase master
   // edit a conflict file
+  $ git add conflict_file_name
   $ git rebase --continue
   $ git checkout master
   $ git merge experiment
