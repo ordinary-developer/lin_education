@@ -307,11 +307,34 @@ You can resolve merge conflict during rebasing:
   $ git merge experiment
   ```
 
+If during rebase conflict after adding already resolved file
+by `git add ...` you have the next message:
+> No changes - did you forget to use "git add"?
+> If there is nothing left to stage, chances are that something else
+> already introduced the same changes;
+> you might want to skip this patch.
+>
+> When you have resolved this problem, run "git rebase --continue".
+> If you prefer to skip this patch, run "git rebase --skip" instead.
+> To check out the original branch and stop rebasing,
+> run "git rebase --abort".
+run the next command:
+```
+$ git rebase --skip
+```
+
+
 For pulling from the server:   
 ```
 $ git pull --rebase
 // or
 $ git fetch && git rebase teamone/master
+```
+
+if you work with a remote branch that then must be rebased 
+sometimes it is useful to run the next command:
+```
+git push --force-with-lease
 ```
 
 **DO NOT REBASE COMMITS THAT EXISTS OUTSIDE YOUR REPOSITORY!!!**
