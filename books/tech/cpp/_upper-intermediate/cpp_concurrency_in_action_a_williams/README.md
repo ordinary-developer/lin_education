@@ -1,8 +1,8 @@
 Information
 ===========
 
-This repository contains my files 
-(my code snippets and my synopses about the main book's topics) 
+This subfolder contains my files 
+(my code snippets and my synopses about the main themes of the book) 
 for the book  **"C++ concurrency in action"** 
 by **Anthony Williams**.
  
