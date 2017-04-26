@@ -6,5 +6,5 @@ This folder contains my files
 for the book  **"The C++ standard library 2-nd edition"** 
 by **Nicolai M. Josuttis**.
  
-[here is the link to amazon](http://www.amazon.com/The-Standard-Library-Tutorial-Reference/dp/0321623215) 
+[link to amazon](http://www.amazon.com/The-Standard-Library-Tutorial-Reference/dp/0321623215) 
 
