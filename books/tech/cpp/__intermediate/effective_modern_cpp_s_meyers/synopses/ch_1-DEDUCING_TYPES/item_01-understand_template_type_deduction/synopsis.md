@@ -3,7 +3,8 @@
 Base material
 =============
 
-The next scheme will be useful for type deducing:
+The next code sample will be useful 
+for our discussing of type deducing:
 
 ```cpp
 template <typename T>
